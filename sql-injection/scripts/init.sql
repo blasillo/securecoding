@@ -1,0 +1,2 @@
+CREATE USER injection IDENTIFIED BY injection;
+GRANT ALL PRIVILEGES TO injection;

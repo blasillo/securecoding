@@ -1,0 +1,12 @@
+C:\desarrollo\securecoding-demo\web-login\src\main\java\com\securecoding\demo\web\login\api\CustomErrorController.java
+C:\desarrollo\securecoding-demo\web-login\src\main\java\com\securecoding\demo\web\login\security\config\WebLoginSecurityConfig.java
+C:\desarrollo\securecoding-demo\web-login\src\main\java\com\securecoding\demo\web\login\api\model\WebLoginRequestModel.java
+C:\desarrollo\securecoding-demo\web-login\src\main\java\com\securecoding\demo\web\login\dataaccess\entity\UserRole.java
+C:\desarrollo\securecoding-demo\web-login\src\main\java\com\securecoding\demo\web\login\security\WebLoginUser.java
+C:\desarrollo\securecoding-demo\web-login\src\main\java\com\securecoding\demo\web\login\service\UserService.java
+C:\desarrollo\securecoding-demo\web-login\src\main\java\com\securecoding\demo\web\login\api\WebLoginController.java
+C:\desarrollo\securecoding-demo\web-login\src\main\java\com\securecoding\demo\web\login\validator\InputValidator.java
+C:\desarrollo\securecoding-demo\web-login\src\main\java\com\securecoding\demo\web\login\dataaccess\entity\User.java
+C:\desarrollo\securecoding-demo\web-login\src\main\java\com\securecoding\demo\web\login\security\WebLoginAuthenticationProvider.java
+C:\desarrollo\securecoding-demo\web-login\src\main\java\com\securecoding\demo\web\login\api\model\WebLoginResponseModel.java
+C:\desarrollo\securecoding-demo\web-login\src\main\java\com\securecoding\demo\web\login\security\config\WebLoginAuthenticationEntryPoint.java

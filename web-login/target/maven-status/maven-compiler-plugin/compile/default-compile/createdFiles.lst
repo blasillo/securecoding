@@ -1,0 +1,15 @@
+com\securecoding\demo\web\login\api\WebLoginController.class
+com\securecoding\demo\web\login\security\WebLoginUser$WebLoginUserBuilder.class
+com\securecoding\demo\web\login\validator\InputValidator.class
+com\securecoding\demo\web\login\service\UserService.class
+com\securecoding\demo\web\login\dataaccess\entity\UserRole.class
+com\securecoding\demo\web\login\api\model\WebLoginRequestModel.class
+com\securecoding\demo\web\login\security\config\WebLoginSecurityConfig.class
+com\securecoding\demo\web\login\api\model\WebLoginResponseModel.class
+com\securecoding\demo\web\login\security\config\WebLoginAuthenticationEntryPoint.class
+com\securecoding\demo\web\login\api\CustomErrorController.class
+com\securecoding\demo\web\login\api\model\WebLoginRequestModel$WebLoginRequestModelBuilder.class
+com\securecoding\demo\web\login\security\WebLoginAuthenticationProvider.class
+com\securecoding\demo\web\login\security\WebLoginUser.class
+com\securecoding\demo\web\login\api\model\WebLoginResponseModel$WebLoginResponseModelBuilder.class
+com\securecoding\demo\web\login\dataaccess\entity\User.class

@@ -1,0 +1,10 @@
+com\securecoding\demo\sql\injection\dataaccess\entity\UserEntity.class
+com\securecoding\demo\sql\injection\dataaccess\repository\impl\UserRepositoryImpl.class
+com\securecoding\demo\sql\injection\dataaccess\repository\UserRepository.class
+com\securecoding\demo\sql\injection\service\impl\UserServiceImpl.class
+com\securecoding\demo\sql\injection\validator\SqlInputValidator.class
+com\securecoding\demo\sql\injection\SqlInjectionApplication.class
+com\securecoding\demo\sql\injection\service\SqlInjectionUserDetailsService.class
+com\securecoding\demo\sql\injection\dataaccess\repository\UserRoleRepository.class
+com\securecoding\demo\sql\injection\dataaccess\repository\CustomUserRepository.class
+com\securecoding\demo\sql\injection\dataaccess\entity\UserRoleEntity.class

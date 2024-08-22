@@ -1,0 +1,10 @@
+C:\desarrollo\securecoding-demo\sql-injection\src\main\java\com\securecoding\demo\sql\injection\dataaccess\repository\UserRepository.java
+C:\desarrollo\securecoding-demo\sql-injection\src\main\java\com\securecoding\demo\sql\injection\SqlInjectionApplication.java
+C:\desarrollo\securecoding-demo\sql-injection\src\main\java\com\securecoding\demo\sql\injection\dataaccess\repository\UserRoleRepository.java
+C:\desarrollo\securecoding-demo\sql-injection\src\main\java\com\securecoding\demo\sql\injection\validator\SqlInputValidator.java
+C:\desarrollo\securecoding-demo\sql-injection\src\main\java\com\securecoding\demo\sql\injection\dataaccess\repository\impl\UserRepositoryImpl.java
+C:\desarrollo\securecoding-demo\sql-injection\src\main\java\com\securecoding\demo\sql\injection\dataaccess\repository\CustomUserRepository.java
+C:\desarrollo\securecoding-demo\sql-injection\src\main\java\com\securecoding\demo\sql\injection\dataaccess\entity\UserEntity.java
+C:\desarrollo\securecoding-demo\sql-injection\src\main\java\com\securecoding\demo\sql\injection\dataaccess\entity\UserRoleEntity.java
+C:\desarrollo\securecoding-demo\sql-injection\src\main\java\com\securecoding\demo\sql\injection\service\impl\UserServiceImpl.java
+C:\desarrollo\securecoding-demo\sql-injection\src\main\java\com\securecoding\demo\sql\injection\service\SqlInjectionUserDetailsService.java

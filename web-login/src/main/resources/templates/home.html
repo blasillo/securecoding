@@ -1,0 +1,12 @@
+<div th:replace="header"></div>
+
+<div class="container float-left">
+    <div th:if="${#authorization.expression('isAuthenticated()')}">
+        <p>Hola <span th:text="${#authentication.principal.username}"/>, has iniciado sessión!</p>
+    </div>
+    <div sec:authorize="hasRole('ROLE_ADMIN')">
+        <p>Tienes provilegios de administrador!</p>
+    </div>
+</div>
+
+<div th:replace="footer"></div>

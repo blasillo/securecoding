@@ -13,18 +13,18 @@ spring:
   jpa:
     open-in-view: false
     show-sql: true
-    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    database-platform: org.hibernate.dialect.OracleDialect
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQL9Dialect
+        dialect: org.hibernate.dialect.OracleDialect
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=injection&binaryTransfer=true&reWriteBatchedInserts=true
-    username: postgres
-    password: postgres
-    driver-class-name: org.postgresql.Driver
+    url: jdbc:oracle:thin:@localhost:1521:FREE
+    username: injection
+    password: injection
+    driver-class-name: oracle.jdbc.OracleDriver
   sql:
     init:
       schema-locations: classpath:init-schema.sql
       enabled: true
       data-locations: classpath:init-data.sql
-      platform: postgres
+      platform: oracle

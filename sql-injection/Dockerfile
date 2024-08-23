@@ -1,6 +1,7 @@
 # Usa una imagen base de JDK
 FROM eclipse-temurin:17-jdk-jammy
 
+
 # Establece el directorio de trabajo dentro del contenedor
 WORKDIR /app
 

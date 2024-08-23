@@ -13,20 +13,24 @@ services:
       - ./scripts:/docker-entrypoint-initdb.d
 
 
-#  app:
-#    build:
-#      context: .
-#      dockerfile: Dockerfile
-#    ports:
-#      - "8181:8181"
-#    environment:
-#      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/postgres
-#      SPRING_DATASOURCE_USERNAME: postgres
-#      SPRING_DATASOURCE_PASSWORD: postgres
-#    depends_on:
-#      - oracle-db
-#    networks:
-#      - app-network
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image:
+    ports:
+      - "8181:8181"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:oracle:thin:@oracle:1521:FREE
+#      SPRING_DATASOURCE_USERNAME: injection
+#      SPRING_DATASOURCE_PASSWORD: injection
+    depends_on:
+      - oracle-db
+    restart: always
+    command: sh -c "sleep 20 && java -jar /app/sqli.jar"
+
+    networks:
+      - app-network
 
 
 networks:

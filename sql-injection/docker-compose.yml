@@ -17,6 +17,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    container_name: sql-injection
     image: blasillo/sql-injection:latest
     ports:
       - "8181:8181"
